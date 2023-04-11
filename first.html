@@ -6,25 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div
+        #d1
         {
             width: 100px;
-            /* border: 10px dashed red; */
-            /* border-bottom: 5px dotted green; */
-            
-            /* border-color: black;
-            border-bottom-style: double; */
-
-            /* border-left: 3px solid red;
-            border-top: 3px dashed green;
-            border-right: 3px double yellow;
-            border-bottom: 3px dotted black; */
-
+            border: 10px dashed red;
         }
+        #d2
+        {
+             border-bottom: 5px dotted green;
+             width: 100px;
+        }
+        #d3
+        {
+             border-top: 5px dashed rgb(128, 0, 77);
+             width: 100px;
+        }
+
+        #d4
+        {
+             border-left: 5px dashed rgb(128, 0, 77);
+             height: 50px;
+        }
+        #d5
+        {
+             border-right: 5px double rgb(128, 0, 77);
+             height: 50px;
+             width: 100px;
+        }
+        #d6
+        {
+             border-right: 5px double rgb(128, 0, 77);
+             height: 50px;
+             width:100px;
+             border-bottom: 5px dashed rgb(128, 0, 77);
+             border-top: 5px dotted rgb(128, 0, 77);
+             border-left: 5px solid rgb(128, 0, 77);
+        }
+        body{
+            background-color: rgb(56, 168, 131);
+        }
+        h1{
+            color: brown;
+        }
+        div{
+            font-size: 30px;
+            color: rgb(230, 230, 93);
+        }
+        #d7
+        {
+            border: 5px double red;
+            width: 100px;
+            box-shadow:5px 10px 20px red;
+        }
+        
+
+           
     </style>
 </head>
 <body>
-    <div>
+    <h1>all side border properties</h1>
+    <div id="d1">
+        demo
+    </div>
+
+    <h1>bottom side border properties</h1>
+    <div id="d2">
+        demo
+    </div>
+
+    <h1>top side border properties</h1>
+    <div id="d3">
+        demo
+    </div>
+
+    <h1>left side border properties</h1>
+    <div id="d4">
+        demo
+    </div>
+
+    <h1>right side border properties</h1>
+    <div id="d5">
+        demo
+    </div>
+    <br>
+    <h1>all different border properties</h1>
+    <div id="d6">
+        demo
+    </div>
+
+    <h1>box shadow properties</h1>
+    <div id="d7">
         demo
     </div>
 </body>
